@@ -1,0 +1,8 @@
+# GEO661_UZH
+Trajectory analysis
+
+Movement patterns within a network can take various forms within different unique ranges of spatial scales. Thus, a cross-scale approach is needed to perform an accurate network analysis.
+A methodology for analysing behavioural movement data using spatial scaling is introduced in this research. During data pre-processing the space is indexed with a Z-Code and partitioned into 24 levels of detail using a quadtree. The raw GPS trajectory data is aggregated into single trips and allocated to the spatial division. As a last step of this first stage, are the origin-destination pairs extracted for each trip.
+In a second stage, the unique origin-destination pairs were visualised at different scales for the vehicles using Individual Mobility Networks (IMN) to validate three possible scenarios of MAUP for flow structures.
+The third methodological stage evaluates the individual mobility network using the degree of primacy and variance of the flow weights, measures mainly used in urban studies. To demonstrate the potential of the proposed methodologies, a dataset of trucks in Greece was processed in the cluster computing System Spark using the high level Python API.
+The results of the analysis show that the cross-scale approach can determine a range of relevant spatial scales for detecting movement patterns. In contrast to conventional network analysis using only one scale, this approach demonstrates the importance of applying a mixed-scale methodology. Moreover, this study could show that integrating measures from other fields can give further insights to the complexity of movement patterns in networks.
